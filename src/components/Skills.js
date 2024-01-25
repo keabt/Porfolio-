@@ -8,7 +8,7 @@ import colorSharp from "../assets/img/color-sharp.png";
 import React, { useState } from "react";
 
 export const Skills = () => {
-  const [isHovered, setIsHovered] = useState(false);
+  const [setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
     setIsHovered(true);
